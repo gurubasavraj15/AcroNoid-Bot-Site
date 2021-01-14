@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AcroNoid BOT</title>
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>AcroNoid | A cool multipurpose Discord bot</title>
+<meta name="description" content="AcroNoid is the most complete & easy-to-use Discord bot! Features: <hr> Moderation <hr> Info <hr> Economy <hr> Anime <hr> Reaction Role <hr> Invite management <hr> Giveaway <hr> ChatBot <hr> Fun <hr> Image Manipulation <hr> Ticket System <hr> Music with Filters <hr> and some Other Commands.">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AcroNoid BOT">
+<meta property="og:description" content="AcroNoid is the most complete & easy-to-use Discord bot! Features: <hr> Moderation <hr> Info <hr> Economy <hr> Anime <hr> Reaction Role <hr> Invite management <hr> Giveaway <hr> ChatBot <hr> Fun <hr> Image Manipulation <hr> Ticket System <hr> Music with Filters <hr> and some Other Commands.">
+<meta property="og:url" content="https://www.acronoid.xyz">
+<meta property="og:image" content="img/alphagif.gif">
+<meta name="theme-color" content="#ff0000">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link href="img/alphagif.gif" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+<!-- ⚡ AMP -->
+<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+<script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+<style amp-boilerplate>body{  background-image: url(img/black_cubes_with_red_lights_hd_red_aesthetic-1920x1080.jpg);}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  <!-- =======================================================
+    Theme Name: Rapid
+    Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+  <style amp-custom>
+    th { text-align: center }
+    td { text-align: center }
+    /*!normalize.css v3.0.2 | MIT License | git.io/normalize*/html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}.highlight table td{padding:5px}.highlight table pre{margin:0}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:700}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:700;font-style:italic}.highlight .c,.highlight .cd{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .gd{color:#000;background-color:#fdd}.highlight .ge{color:#000;font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:700}.highlight .gu{color:#aaa}.highlight .gt{color:#a00}.highlight .kc{color:#000;font-weight:700}.highlight .kd{color:#000;font-weight:700}.highlight .kn{color:#000;font-weight:700}.highlight .kp{color:#000;font-weight:700}.highlight .kr{color:#000;font-weight:700}.highlight .kt{color:#458;font-weight:700}.highlight .k,.highlight .kv{color:#000;font-weight:700}.highlight .mf{color:#099}.highlight .mh{color:#099}.highlight .il{color:#099}.highlight .mi{color:#099}.highlight .mo{color:#099}.highlight .m,.highlight .mb,.highlight .mx{color:#099}.highlight .sb{color:#d14}.highlight .sc{color:#d14}.highlight .sd{color:#d14}.highlight .s2{color:#d14}.highlight .se{color:#d14}.highlight .sh{color:#d14}.highlight .si{color:#d14}.highlight .sx{color:#d14}.highlight .sr{color:#990000}.highlight .s1{color:#d14}.highlight .ss{color:#990073}.highlight .s{color:#d14}.highlight .na{color:teal}.highlight .bp{color:#999}.highlight .nb{color:#0086b3}.highlight .nc{color:#458;font-weight:700}.highlight .no{color:teal}.highlight .nd{color:#3c5d5d;font-weight:700}.highlight .ni{color:purple}.highlight .ne{color:#900;font-weight:700}.highlight .nf{color:#900;font-weight:700}.highlight .nl{color:#900;font-weight:700}.highlight .nn{color:#555}.highlight .nt{color:navy}.highlight .vc{color:teal}.highlight .vg{color:teal}.highlight .vi{color:teal}.highlight .nv{color:teal}.highlight .ow{color:#000;font-weight:700}.highlight .o{color:#000;font-weight:700}.highlight .w{color:#bbb}.highlight{background-color:#f8f8f8}*{box-sizing:border-box}body{padding:0;margin:0;font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;color:#c3c4c5;background-color:#171717}a{color:#209cee;text-decoration:none}a:hover{text-decoration:underline}.btn{display:inline-block;margin-bottom:1rem;color:rgba(255,255,255,.7);background-color:rgba(255,255,255,.08);border-color:rgba(255,255,255,.2);border-style:solid;border-width:1px;border-radius:.3rem;transition:color .2s,background-color .2s,border-color .2s}.btn:hover{color:rgba(255,255,255,.8);text-decoration:none;background-color:rgba(255,255,255,.2);border-color:rgba(255,255,255,.3)}.btn+.btn{margin-left:1rem}@media screen and (min-width:64em){.btn{padding:.75rem 1rem}}@media screen and (min-width:42em) and (max-width:64em){.btn{padding:.6rem .9rem;font-size:.9rem}}@media screen and (max-width:42em){.btn{display:block;width:100%;padding:.75rem;font-size:.9rem}.btn+.btn{margin-top:1rem;margin-left:0}}.page-header{color:#fff;text-align:center;background-color:#991515;background-image:url(img/nasa.jpg)}@media screen and (min-width:64em){.page-header{padding:5rem 6rem}}@media screen and (min-width:42em) and (max-width:64em){.page-header{padding:3rem 4rem}}@media screen and (max-width:42em){.page-header{padding:2rem 1rem}}.project-name{margin-top:0;margin-bottom:.1rem}@media screen and (min-width:64em){.project-name{font-size:3.25rem}}@media screen and (min-width:42em) and (max-width:64em){.project-name{font-size:2.25rem}}@media screen and (max-width:42em){.project-name{font-size:1.75rem}}.project-tagline{margin-bottom:2rem;font-weight:400;opacity:.7}@media screen and (min-width:64em){.project-tagline{font-size:1.25rem}}@media screen and (min-width:42em) and (max-width:64em){.project-tagline{font-size:1.15rem}}@media screen and (max-width:42em){.project-tagline{font-size:1rem}}.main-content{word-wrap:break-word}.main-content :first-child{margin-top:0}@media screen and (min-width:64em){.main-content{max-width:64rem;padding:2rem 6rem;margin:0 auto;font-size:1.1rem}}@media screen and (min-width:42em) and (max-width:64em){.main-content{padding:2rem 4rem;font-size:1.1rem}}@media screen and (max-width:42em){.main-content{padding:2rem 1rem;font-size:1rem}}.main-content img{max-width:100%}.main-content h1,.main-content h2,.main-content h3,.main-content h4,.main-content h5,.main-content h6{margin-top:2rem;margin-bottom:1rem;font-weight:400;color:#ff0000}.main-content p{margin-bottom:1em}.main-content code{padding:2px 4px;font-family:Consolas,liberation mono,Menlo,Courier,monospace;font-size:.9rem;color:silver;background-color:#23272a;border-radius:.3rem}.main-content pre{padding:.8rem;margin-top:0;margin-bottom:1rem;font:1rem Consolas,liberation mono,Menlo,Courier,monospace;color:silver;word-wrap:normal;background-color:#23272a;border:solid 1px #dce6f0;border-radius:.3rem}.main-content pre>code{padding:0;margin:0;font-size:.9rem;color:silver;word-break:normal;white-space:pre;background:0 0;border:0}.main-content .highlight{margin-bottom:1rem}.main-content .highlight pre{margin-bottom:0;word-break:normal}.main-content .highlight pre,.main-content pre{padding:.8rem;overflow:auto;font-size:.9rem;line-height:1.45;border-radius:.3rem;-webkit-overflow-scrolling:touch}.main-content pre code,.main-content pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.main-content pre code:before,.main-content pre code:after,.main-content pre tt:before,.main-content pre tt:after{content:normal}.main-content ul,.main-content ol{margin-top:0}.main-content blockquote{padding:0 1rem;margin-left:0;color:#819198;border-left:.3rem solid #dce6f0}.main-content blockquote>:first-child{margin-top:0}.main-content blockquote>:last-child{margin-bottom:0}.main-content table{display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all;-webkit-overflow-scrolling:touch}.main-content table th{font-weight:700}.main-content table th,.main-content table td{padding:.5rem 1rem;border:1px solid #2c2f33}.main-content dl{padding:0}.main-content dl dt{padding:0;margin-top:1rem;font-size:1rem;font-weight:700}.main-content dl dd{padding:0;margin-bottom:1rem}.main-content hr{height:2px;padding:0;margin:1rem 0;background-color:#2c2f33;border:0}.site-footer{padding-top:2rem;margin-top:2rem;border-top:solid 1px #2c2f33}@media screen and (min-width:64em){.site-footer{font-size:1rem}}@media screen and (min-width:42em) and (max-width:64em){.site-footer{font-size:1rem}}@media screen and (max-width:42em){.site-footer{font-size:.9rem}}.site-footer-owner{display:block;font-weight:700}.site-footer-credits{color:#819198}
+   .rounded {
+     border-radius: 5px;
+   }
+   img.emoji {
+     display: inline;
+     border: none;
+     box-shadow: none;
+     height: 1em;
+     width: 1em;
+     margin: 0 .07em;
+     vertical-align: -0.1em;
+     background: none;
+     padding: 0;
+   }
+   
+  </style>
+    
+  </head>
+  <body>
+    <header id="header">
+
+      <div id="topbar">
+        <div class="container">
+          <div class="social-links">
+            
+          </div>
+        </div>
+      </div>
+  
+      <div class="container">
+  
+        <div class="logo float-left">
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
+        </div>
+  
+        <nav class="main-nav float-right d-none d-lg-block">
+          <ul>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#command">Commands!</a></li>
+            <li><a href="#acroteam">Acro Team</a></li>
+          
+         
+                  <ul>
+                    
+                  </ul>
+                </li>
+              
+              </ul>
+            </li>
+    
+          </ul>
+        </nav><!-- .main-nav -->
+        
+      </div>
+    </header>
+    <amp-analytics type="googleanalytics">
+      <script type="application/json">
+        {
+         "vars": {
+         "account": "UA-121935313-1"
+         },
+         "triggers": {
+          "trackPageview": {
+           "on": "visible",
+           "request": "pageview"
+          }
+         }
+        }
+      </script>
+    </amp-analytics>
+    <section class="page-header" id="home">
+      <h1 class="project-name"><b><u>AcroNoid</u></b></h1><hr>
+      <h2 class="project-tagline"><b>Welcome to AcroNoid's Discord Bot Page</b></h2>
+      <a href="https://discord.com/oauth2/authorize?client_id=767223932884353044&scope=bot&permissions=2147483647" target="_blank" class="btn">Invite</a>
+      <a href="https://discord.gg/Xqw2akR" target="_blank" class="btn">Join Server</a>
+      <a href="https://top.gg/bot/767223932884353044/vote" target="_blank" class="btn">Vote For Acro!</a>
+
+
+         <a href="https://discord.com/oauth2/authorize?client_id=767223932884353044&scope=bot&permissions=2146958847" target="_blank" class="btn-get-started scrollto"><img src="img/alphagif.gif"  class="center" width="400" height="400"></a>
+
+
+      
+    </section>
+
+    <section class="main-content" id="about">
+      <h3>ABOUT ACRO&nbsp;</h3>
+
+<p>AcroNoid is a Multipurpose Discord bot.</p>
+
+<p>Bot Library: Discord.js V12</p>
+
+<p>AcroNoid has received a huge update with lots of new commands and features! Check them out! </p>
+
+<p><a href="https://discord.com/oauth2/authorize?client_id=767223932884353044&scope=bot&permissions=2147483647" target="_blank" rel="noopener">Add AcroNoid to your server!</a></p>
+
+<p><noscript><img class="rounded" src="https://discordapp.com/api/guilds/716575565783760906/embed.png?style=banner3" width="320" height="140" alt="Discord" /></noscript></amp-img></a>
+<a href="https://botsfordiscord.com/bot/767223932884353044/vote" target="_blank" rel="noopener"><amp-img class="rounded" src="https://botsfordiscord.com/api/bot/767223932884353044/widget?theme=dark" alt="Bots for Discord" layout="fixed" height="150" width="300"><noscript><img class="rounded" src="https://botsfordiscord.com/api/bot/767223932884353044/widget?theme=dark" width="300" height="150" alt="Bots for Discord" /></noscript></amp-img></a>
+<!--<a href="https://bots.ondiscord.xyz/bots/398690824721924107" target="_blank" rel="noopener"><amp-img class="rounded" src="https://bots.ondiscord.xyz/bots/398690824721924107/embed?theme=dark&amp;showGuilds=true" alt="Bots on Discord" layout="fixed" height="150" width="300"><noscript><img class="rounded" src="https://bots.ondiscord.xyz/bots/398690824721924107/embed?theme=dark&amp;showGuilds=true" width="300" height="150" alt="Bots on Discord"></noscript></amp-img></a>-->
+<a href="https://discordbotlist.com/bots/767223932884353044/upvote" target="_blank" rel="noopener"><amp-img class="rounded" src="https://discordbotlist.com/bots/767223932884353044/widget" alt="Discord Bot List" layout="fixed" height="140" width="380"><noscript><img class="rounded" src="https://discordbotlist.com/bots/767223932884353044/widget" width="380" height="140" alt="Discord Bot List" /></noscript></amp-img></a></p>
+
+<h1 id="try-it-out"><b><u>Try It Out !!</u></b></h1>
+<p>Type <code class="language-plaintext highlighter-rouge">>help</code> to get started.</p>
+<amp-iframe class="rounded" src="https://e.widgetbot.io/channels/716575565783760906/744418792091811891" height="600" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-forms"><noscript><iframe class="rounded" src="https://e.widgetbot.io/channels/716575565783760906/744418792091811891" height="600" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-forms"></iframe></noscript></amp-iframe>
+
+
+
+<section id="features">
+  <div class="container">
+    <div class="section-header">
+      <h3><span>AcroNoid</span> BOT FEATURES&nbsp;</h3>
+      <p>✲ ⁌━ • ━ • ━ • ━ • ━ • ━ • ━ • ━ • ━ • ━ • ━ • ━ • ━ • ━ • ━ • ━ • ━ • ━ • ━⁍ ✲</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="box wow fadeInLeft">
+          <h4 class="title"><a href="#hmod"><u>MODERATION</u></a></h4>
+         
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="box wow fadeInRight">
+          <h4 class="title"><a href="#info"><u>INFO</u></a></h4>
+          
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+          <h4 class="title"><a href="#economy"><u>ECONOMY</u></a></h4>
+          
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+          <h4 class="title"><a href="#anime"><u>ANIME</u></a></h4>
+          
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+          <h4 class="title"><a href="#reactionrole"><u>REACTION ROLE</u></a></h4>
+          
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+          <h4 class="title"><a href="#invites"><u>INVITES</u></a></h4>
+          
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+          <h4 class="title"><a href="#giveaway"><u>GIVEAWAY</u></a></h4>
+          
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+          <h4 class="title"><a href="#chatbot"><u>CHAT BOT</u></a></h4>
+          
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+          <h4 class="title"><a href="#fun"><u>FUN</u></a></h4>
+          
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+          <h4 class="title"><a href="#image"><u>IMAGE</u></a></h4>
+          
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+          <h4 class="title"><a href="#ticket"><u>TICKET</u></a></h4>
+          
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="box wow fadeInLeft" data-wow-delay="0.2s">
+          <h4 class="title"><a href="#music"><u>MUSIC</u></a></h4>
+          
+ </div>
+ </div>
+ </div>
+ </div>
+
+
+<h1 id="command"><b><u>Commands</u></b></h1>
+<p>The prefix for all commands is <code class="language-plaintext highlighter-rouge">></code> by default. Set a custom server prefix with the <code class="language-plaintext highlighter-rouge">prefix</code> command!</p>
+
+
+
+<h2 id="️hmod"><b>Moderation Commands</b></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Aliases</th>
+      <th>Description</th>
+      <th>Arguments</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">help</code></td>
+      <td><code class="language-plaintext highlighter-rouge">h</code></td>
+      <td>Sends the command list or info for a specific command</td>
+      <td>Command or module name (Optional)</td>
+      <td><code class="language-plaintext highlighter-rouge">>help</code>, <code class="language-plaintext highlighter-rouge">>help kick</code>, <code class="language-plaintext highlighter-rouge">>help ban</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">announcement</code></td>
+      <td>announce</td>
+      <td>Announcement in embed</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>announce Text, >announcement Text</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">embed</code></td>
+      <td>none</td>
+      <td>Say your text in embed</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>embed Text</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">kick</code></td>
+      <td>none</td>
+      <td>Kicks mention user</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>kick @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">votekick</code></td>
+      <td>none</td>
+      <td>Creates a poll to kick user</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>votekick @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">voicekick</code></td>
+      <td>vk</td>
+      <td>Kicks mention user from Voice Channel</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>voicekick @user, >vk @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ban</code></td>
+      <td>none</td>
+      <td>Bans mention user from server</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>ban @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">mute</code></td>
+      <td>none</td>
+      <td>Mutes mention user</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>mute @user reason</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">unmute</code></td>
+      <td>none</td>
+      <td>Unmutes mention user</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>unmute @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">warn</code></td>
+      <td>none</td>
+      <td>warns mention user</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>warn @user reason</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">warns</code></td>
+      <td>none</td>
+      <td>Check warnings</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>warns</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">resetwarns</code></td>
+      <td>none</td>
+      <td>Reset warns count</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>resetwarns @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">avatar</code></td>
+      <td>av</td>
+      <td>Shows avatar</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>avatar,>av,>av @user,>av ID</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">addrole</code></td>
+      <td>none</td>
+      <td>Adds role to user</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>addrole @user @role</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">removerole</code></td>
+      <td>none</td>
+      <td>Removes role from user</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>removerole @user @role</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">clear</code></td>
+      <td>none</td>
+      <td>Delete messages</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>clear amount</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">addemoji</code></td>
+      <td>none</td>
+      <td>Adds emoji to server</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>addemoji emoji</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">setwelchannel</code></td>
+      <td>none</td>
+      <td>sets welcome channel</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>setwelchannel #channel</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">rules1</code></td>
+      <td>none</td>
+      <td>Send rules in embed</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>rules1 <img src="img/rules1.PNG" width="300" height="400"></code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">rules2</code></td>
+      <td>none</td>
+      <td>Send rules in embed</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>rules2 <img src="img/rules2.PNG" width="300" height="400"></code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">rules3</code></td>
+      <td>none</td>
+      <td>Send rules in embed</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>rules3 <img src="img/rules3.PNG" width="300" height="400"></code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">rules4</code></td>
+      <td>none</td>
+      <td>Send rules in embed</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>rules4 <img src="img/rules4.PNG" width="300" height="400"></code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">rules</code></td>
+      <td>none</td>
+      <td>Send rules in embed</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>rules Text</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="info"><b>Info Commands</b></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Aliases</th>
+      <th>Description</th>
+      <th>Arguments</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">botinfo</code></td>
+      <td><code class="language-plaintext highlighter-rouge">none</code></td>
+      <td>Gives bot information</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>botinfo</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">invite</code></td>
+      <td>none</td>
+      <td>Gives Bot Invite link</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>invite</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">uptime</code></td>
+      <td><code class="language-plaintext highlighter-rouge">none</code></td>
+      <td>Gives bot runtime</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>uptime</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">channelinfo</code></td>
+      <td>cinfo</td>
+      <td>Gives channel Information</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>channelinfo #channel, >cinfo #channel</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">roleinfo</code></td>
+      <td>rinfo</td>
+      <td>Gives role Information</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>roleinfo @role, >rinfo @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">stats</code></td>
+      <td>none</td>
+      <td>Shows bot stats</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>stats</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">id</code></td>
+      <td>none</td>
+      <td>Shows mention user ID</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>id @user</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="economy"><b>Economy commands</b></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Aliases</th>
+      <th>Description</th>
+      <th>Arguments</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">addmoney</code></td>
+      <td>none</td>
+      <td>Add money to user</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>addmoney @user amount</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">balance</code></td>
+      <td>bal</td>
+      <td>Show balance</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>balance, >bal</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">daily</code></td>
+      <td>none</td>
+      <td>Get daily rewards</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>daily</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">weekly</code></td>
+      <td>none</td>
+      <td>Get weekly rewards</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>weekly</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">deposit</code></td>
+      <td>dep</td>
+      <td>deposit money in bank</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>deposit all, >deposit amount, >dep all, >dep amount</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">fish</code></td>
+      <td>none</td>
+      <td>Earn money by fishing</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>fish</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pay</code></td>
+      <td>none</td>
+      <td>Pay money to user</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>pay @user amount</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">roulette</code></td>
+      <td>none</td>
+      <td>Roulette game</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>roulette color amount, color=Red,Black or Green</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">slots</code></td>
+      <td>gamble</td>
+      <td>Slots game</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>slots amount, >gamble amount</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">withdraw</code></td>
+      <td>with</td>
+      <td>withdraw money from bank</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>withdraw amount, >with amount</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">work</code></td>
+      <td>none</td>
+      <td>Work and earn</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>work</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="anime"><b>Anime Commands</b></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Aliases</th>
+      <th>Description</th>
+      <th>Arguments</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">anime</code></td>
+      <td><code class="language-plaintext highlighter-rouge">none</code></td>
+      <td>Searches anime</td>
+      <td>Search query (Required)</td>
+      <td><code class="language-plaintext highlighter-rouge">>anime Naruto</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">hug</code></td>
+      <td><code class="language-plaintext highlighter-rouge">none</code></td>
+      <td>Send gif hug</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>hug @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">neko</code></td>
+      <td><code class="language-plaintext highlighter-rouge">none</code></td>
+      <td>Neko command</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>neko</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pat</code></td>
+      <td><code class="language-plaintext highlighter-rouge">none</code></td>
+      <td>Sends gif pat</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>pat @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">waifu</code></td>
+      <td><code class="language-plaintext highlighter-rouge">none</code></td>
+      <td>Sends anime</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>waifu</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">wink</code></td>
+      <td><code class="language-plaintext highlighter-rouge">none</code></td>
+      <td>Sends anime</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>wink</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="️reactionrole"><b>Reaction Role Commands</b></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Aliases</th>
+      <th>Description</th>
+      <th>Arguments</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">rradd</code></td>
+      <td>none</td>
+      <td>Reaction Role add</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>rradd #channel messageID @role emoji</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">rrdelete</code></td>
+      <td>none</td>
+      <td>Reaction Role delete</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>rradd messageID emoji</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="invites"><b>Invites Management Commands</b></h2>
+<p>For all text commands, the argument is the text to manipulate.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Aliases</th>
+      <th>Description</th>
+      <th>Arguments</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">invites</code></td>
+      <td>none</td>
+      <td>Check you invites</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>invites</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">top</code></td>
+      <td>none</td>
+      <td>Invites Leaderboard</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>top</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="giveaway"><b>Giveaway Commands</b></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Aliases</th>
+      <th>Description</th>
+      <th>Arguments</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">Giveaway Start</code></td>
+      <td>none</td>
+      <td>Start Giveaway.</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>start #channel time winners prize</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">reroll</code></td>
+      <td><code class="language-plaintext highlighter-rouge">none</code></td>
+      <td>Reroll giveaway winner.</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>reroll messageID</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">end</code></td>
+      <td><code class="language-plaintext highlighter-rouge">none</code></td>
+      <td>End giveaway</td>
+      <td>none</td>
+      <td><code class="language-plaintext highlighter-rouge">>end messageID</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="chatbot"><b>Chat Bot Commands</b></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Aliases</th>
+      <th>Description</th>
+      <th>Arguments</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">chatbot</code></td>
+      <td>none</td>
+      <td>Show chatbot Information</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>chatbot</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">setchatbotchannel</code></td>
+      <td>none</td>
+      <td>Sets chatbot channel</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>setchatbotchannel #channel</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">disablechatbotchannel</code></td>
+      <td>none</td>
+      <td>Disables chat bot channel</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>disablechatbotchannel</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="fun"><b>Fun Commands</b></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Aliases</th>
+      <th>Description</th>
+      <th>Arguments</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ascii</code></td>
+      <td>none</td>
+      <td>Convert Text in Ascii</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>ascii Text</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">bed</code></td>
+      <td>none</td>
+      <td>Creates meme</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>bed @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">binary</code></td>
+      <td>none</td>
+      <td>Convert text in binary code</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>binary Text</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">circle</code></td>
+      <td>none</td>
+      <td>Crops avatar in circle</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>circle @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">clyde</code></td>
+      <td>none</td>
+      <td>Send messagea through clyde bot</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>clyde text</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">emojify</code></td>
+      <td>none</td>
+      <td>Creates Text in emoji</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>emojify Text</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">twitter</code></td>
+      <td>none</td>
+      <td>Shows Random tweets</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>twitter</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">github</code></td>
+      <td>none</td>
+      <td>Account Info of github</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>github username</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">npm</code></td>
+      <td>none</td>
+      <td>Info of npm packages</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>npm package_name</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">iq</code></td>
+      <td>none</td>
+      <td>Tell you your IQ(fun command)</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>iq @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">joke</code></td>
+      <td>none</td>
+      <td>Tells you a joke</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>joke</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">meme</code></td>
+      <td>none</td>
+      <td>Shows random memes</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>meme</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">osu</code></td>
+      <td>none</td>
+      <td>Shows Info of account on osu</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>osu username</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ping</code></td>
+      <td>none</td>
+      <td>Shows Latency</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>ping</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">reddit</code></td>
+      <td>none</td>
+      <td>Shows info of reddit account</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>reddit username</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">rps</code></td>
+      <td>none</td>
+      <td>RPS game</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>rps rock, paper, or scissors</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">zalgo</code></td>
+      <td>none</td>
+      <td>Creates Text in this format T̂͆͟eͮ̉͂x̔ͥ̓t̂̌ͦ</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>zalgo Text</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">weather</code></td>
+      <td>none</td>
+      <td>Show weather info of mentioned place</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>weather place</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="image"><b>Image Manipulation Commands</b></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Aliases</th>
+      <th>Description</th>
+      <th>Arguments</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">fire</code></td>
+      <td>none</td>
+      <td>Creates fire meme</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>fire @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">respect</code></td>
+      <td>none</td>
+      <td>Creates respect meme</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>respect @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">rip</code></td>
+      <td>none</td>
+      <td>Creates rip meme</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>rip @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">scary</code></td>
+      <td>none</td>
+      <td>Creates scary meme</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>scary @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">trash</code></td>
+      <td>none</td>
+      <td>Creates trash meme</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>trash @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">triggered</code></td>
+      <td>none</td>
+      <td>Creates triggered meme</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>triggered @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">bird</code></td>
+      <td>none</td>
+      <td>Show bird images</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>bird</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">cat</code></td>
+      <td>none</td>
+      <td>Show cat images</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>cat</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">dog</code></td>
+      <td>none</td>
+      <td>Show dog images</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>dog</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="ticket"><b>Ticket Commands</b></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Aliases</th>
+      <th>Description</th>
+      <th>Arguments</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">setlogs</code></td>
+      <td>none</td>
+      <td>Sets ticket logs channel</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>setlogs #channel</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">ticket</code></td>
+      <td>none</td>
+      <td>Creates a reaction message to create ticket</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>ticket</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">close</code></td>
+      <td>none</td>
+      <td>Close Ticket</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>close</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="music"><b>Music Commands</b></h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Aliases</th>
+      <th>Description</th>
+      <th>Arguments</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">clear-queue</code></td>
+      <td>none</td>
+      <td>Clear queue</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>clear-queue song_number</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">filter</code></td>
+      <td>none</td>
+      <td>Add filter to song</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>filter filter_name</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">filters</code></td>
+      <td>none</td>
+      <td>show all filters names</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>filters</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">loop</code></td>
+      <td>none</td>
+      <td>Loop the currnet song and play it again and again</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>loop</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">nowplaying</code></td>
+      <td>np</td>
+      <td>Show current song playing</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>nowplaying, >np</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pause</code></td>
+      <td>none</td>
+      <td>Pauses current song</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>pause</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">resume</code></td>
+      <td>none</td>
+      <td>resume current song</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>resume</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">play</code></td>
+      <td>p</td>
+      <td>Play songs</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>play song_name, >p song_name</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">lyrics</code></td>
+      <td>none</td>
+      <td>Show current song lyrics</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>lyrics</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">skip</code></td>
+      <td>next, n</td>
+      <td>Skip to next song</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>skip, >next, >n</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">queue</code></td>
+      <td>none</td>
+      <td>Shows queue</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>queue</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">shuffle</code></td>
+      <td>none</td>
+      <td>Shuffles all queue songs</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>shuffle</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">stop</code></td>
+      <td>none</td>
+      <td>Stop song and disconnect bot</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>stop</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">volume</code></td>
+      <td>none</td>
+      <td>Adjust volume</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>volume amount</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="other"><b>Other Commands</b></h2>
+
+<table>
+  <thead>
+    <th>Command</th>
+      <th>Aliases</th>
+      <th>Description</th>
+      <th>Arguments</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">avatar</code></td>
+      <td>av</td>
+      <td>Shows user avatar</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>avatar @user, >av @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">userinfo</code></td>
+      <td>uinfo, whois, profile</td>
+      <td>Shows user info</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>userinfo @user, >uinfo @user, >whois @user, >profile @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">serverinfo</code></td>
+      <td>sinfo</td>
+      <td>Shows server info</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>serverinfo, >sinfo</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">servericon</code></td>
+      <td>sicon</td>
+      <td>Shows server icon</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>servericon, >sicon</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">snipe</code></td>
+      <td>none</td>
+      <td>Shows last message deleted</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>snipe</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">urban</code></td>
+      <td>none</td>
+      <td>Searches query on urban dictionary</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>urban query</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">wiki</code></td>
+      <td>none</td>
+      <td>Searches query on wikipedia</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>wiki query</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">messages</code></td>
+      <td>none</td>
+      <td>Show messages count</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>messages @user</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">youtube</code></td>
+      <td>none</td>
+      <td>Searches query on youtube</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>youtube query</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">time</code></td>
+      <td>none</td>
+      <td>Shows current time</td>
+      <td>None</td>
+      <td><code class="language-plaintext highlighter-rouge">>time</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>AcroNoid was created by <a href="#acroteam">Acro Team</a>.</p>
+
+<amp-iframe class="rounded" src="https://e.widgetbot.io/channels/716575565783760906/744418792091811891" height="600" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-forms"><noscript><iframe class="rounded" src="https://e.widgetbot.io/channels/716575565783760906/744418792091811891" height="600" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-forms"></iframe></noscript></amp-iframe>
+
+
+<section id="acroteam" class="wow fadeInUp">
+  <div class="container">
+    <div class="section-header">
+      <h3>DEVELOPERS</h3>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <div class="member">
+          <div class="pic"><a href="https://top.gg/user/736977089307345004" class="btn-get-started scrollto"><img src="img/alpha1.gif" alt="" style="width:500px;height:250px;"></div>
+          <div class="details">
+            <h4><h4>ALPHAᴰᴱⱽ</a></h4>
+            <span>BOT DEVELOPER</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="member">
+          <div class="pic"><a href="https://top.gg/user/548784413790699530" class="btn-get-started scrollto"><img src="img/chitra.webp" alt="" style="width:500px;height:250px;"></div>
+          <div class="details">
+            <h4><h4><h4>Chitraksh Maheshwari</a></h4></h4>
+            <span>BOT DEVELOPER</span>
+          </div>
+        </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+        <div class="member">
+          <div class="pic"><a href="https://top.gg/user/732597393446404106" class="btn-get-started scrollto"><img src="img/nero.gif" alt="" style="width:500px;height:250px;"></div>
+          <div class="details">
+            <h4><h4><h4><h4>NΣRO</a></h4></h4></h4>
+            <span>BOT DEVELOPER</span>
+          
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="member">
+          <div class="pic"><a href="https://top.gg/user/736977089307345004" class="btn-get-started scrollto"><img src="img/alpha1.gif" alt="" style="width:500px;height:250px;"></div>
+          <div class="details">
+            <h4>ALPHAᴰᴱⱽ</a></h4>
+            <span>WEBSITE DEVELOPER</span>
+          </div>
+        </div>
+      </div><br>
+    
+  </div>
+</section><!-- #team -->
+
+
+      <footer class="site-footer">
+        <p>Copyright © All Rights Reserved Website Developed by<a href="https://top.gg/user/736977089307345004" class="btn-get-started scrollto"> ALPHAᴰᴱⱽ</a>  (DiscordID:736977089307345004)</p>
+      </footer>
+    </section>
+    <amp-install-serviceworker
+            src="/sw.js"
+            data-iframe-src="install-sw.html"
+            layout="nodisplay">
+    </amp-install-serviceworker>
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <!-- Uncomment below i you want to use a preloader -->
+    <!-- <div id="preloader"></div> -->
+  
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/mobile-nav/mobile-nav.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
+  
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
+  
+  </body>
+  </html>
+  
